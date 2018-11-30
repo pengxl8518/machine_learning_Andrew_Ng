@@ -56,9 +56,10 @@
    ```
 
 
-  ![输出结果可视化](https://raw.githubusercontent.com/pengxl8518/machine-learning-/master/figure_1.png)输出结果可视化
+  ![输出结果可视化](https://raw.githubusercontent.com/pengxl8518/machine-learning-/master/figure_1.png)
   
+                                          输出结果可视化
   
-  [markdown使用技巧]https://www.jianshu.com/p/38fe4911b4a0
+  [markdown使用技巧1]https://www.jianshu.com/p/38fe4911b4a0
   
   [markdown使用技巧2]https://www.cnblogs.com/liugang-vip/p/6337580.html
