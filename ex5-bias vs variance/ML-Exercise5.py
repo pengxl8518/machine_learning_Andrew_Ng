@@ -11,7 +11,7 @@ def load_data():
     pandas has trouble taking this 2d ndarray to construct a dataframe, so I ravel
     the results
     """
-    d = sio.loadmat('ex5data1.mat')
+    d = sio.loadmat('dataset/ex5data1.mat')
     return map(np.ravel, [d['X'], d['y'], d['Xval'], d['yval'], d['Xtest'], d['ytest']])
 
 X, y, Xval, yval, Xtest, ytest = load_data()
