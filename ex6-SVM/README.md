@@ -16,5 +16,7 @@
     
     
     支持向量机 ax^{2} + by^{2} + c = 0
+    
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
   
