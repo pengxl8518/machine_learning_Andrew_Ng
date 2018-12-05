@@ -15,8 +15,24 @@
 ### 支持向量机的数学原理
     
     
-    支持向量机 ax^{2} + by^{2} + c = 0
+    * 支持向量机的假设函数（周志华和李航书给的都很复杂，这里只给吴恩达教学视频中的）
     
-    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        以上就是为什么支持向量机最终会找到最大间距分类器的原因。因为它试图极小化theta的范数值来
+        极大化p(i)的范数。
+    
+    
+    
+    
+    
+    
 
   
