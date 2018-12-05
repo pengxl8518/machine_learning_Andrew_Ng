@@ -18,7 +18,7 @@
    
     吴恩达视频中在讨论时总是假设我们的假设函数是一个s函数，需要注意。
     
-#### 1.1、支持向量机的损失函数（周志华和李航书给的都很复杂，这里只给吴恩达教学视频中的）    
+#### 1.1 支持向量机的损失函数（周志华和李航书给的都很复杂，这里只给吴恩达教学视频中的）    
 
         
 ![支持向量机的损失函数](https://raw.githubusercontent.com/pengxl8518/machine_learning_Andrew_Ng/master/ex6-SVM/svm_theory/svm%E5%81%87%E8%AE%BE%E5%87%BD%E6%95%B0-%E5%90%B4%E6%81%A9%E8%BE%BE.png)
@@ -34,13 +34,13 @@
    * C较小时，相当于r较大可能会导致低拟合，高偏差。
    
    
-#### 1.2支持向量机的可视化边界理解
+#### 1.2 支持向量机的可视化边界理解
 
-    * 下图中，theat × X>1时 y=1时建立在假设函数为s函数之上的。包括下面对最大间距的解释上也是。
+   * 下图中，theat × X>1时 y=1时建立在假设函数为s函数之上的。包括下面对最大间距的解释上也是。
 
 ![SVM的决策边界的可视化理解1](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C.png)
 
-    * 巧妙的将变量x与theta之间的关系变成了两个范数值(p投影与theta)的相乘。
+   * 巧妙的将变量x与theta之间的关系变成了两个范数值(p投影与theta)的相乘。
     
 ![SVM的决策边界2](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C2.png)
 
