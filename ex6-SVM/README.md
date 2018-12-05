@@ -14,11 +14,21 @@
 
 ### 支持向量机的数学原理
     
-* 支持向量机的假设函数（周志华和李航书给的都很复杂，这里只给吴恩达教学视频中的）    
-        
-![图片](https://raw.githubusercontent.com/pengxl8518/machine_learning_Andrew_Ng/master/ex6-SVM/svm_theory/svm%E5%81%87%E8%AE%BE%E5%87%BD%E6%95%B0-%E5%90%B4%E6%81%A9%E8%BE%BE.png)
+    #### 吴恩达视频中在讨论时总是假设我们的假设函数是一个s函数，需要注意。
+    
+* 支持向量机的损失函数（周志华和李航书给的都很复杂，这里只给吴恩达教学视频中的）    
 
-![图片](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C.png)
+        
+![支持向量机的损失函数](https://raw.githubusercontent.com/pengxl8518/machine_learning_Andrew_Ng/master/ex6-SVM/svm_theory/svm%E5%81%87%E8%AE%BE%E5%87%BD%E6%95%B0-%E5%90%B4%E6%81%A9%E8%BE%BE.png)
+    根据吴恩达所言，把损失函数从A+r×B的优化问题变成 C×A+B的优化问题只是因为是个惯例。
+    
+    在A+r×B的问题中，如果给定r为一个很大的值则意味着给B一个很大的权重。
+
+* 支持向量机的可视化边界理解
+
+![SVM的决策边界的可视化理解1](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C.png)
+
+很巧妙的将变量x与theta之间的关系变成了一个向量
 
 ![图片](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C2.png)
 
