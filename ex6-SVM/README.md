@@ -24,20 +24,36 @@
    根据吴恩达所言，把损失函数从A+r×B的优化问题变成 C×A+B的优化问题只是因为是个惯例。
     
    在A+r×B的问题中，如果给定r为一个很大的值则意味着给B一个很大的权重。
-
+   
+   在SVM的损失函数中：
+   
+   C较大时，相当于r较小可能会导致过拟合，高方差。
+   
+   C较小时，相当于r较大可能会导致低拟合，高偏差。
+   
+   
 * 支持向量机的可视化边界理解
+
+    下图中，theat×x>1时 y=1时建立在假设函数为s函数之上的。包括下面对最大间距的解释上也是。
 
 ![SVM的决策边界的可视化理解1](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C.png)
 
-很巧妙的将变量x与theta之间的关系变成了一个向量
+    很巧妙的将变量x与theta之间的关系变成了两个范数值(p投影与theta)的相乘。
+    
+![SVM的决策边界2](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C2.png)
 
-![图片](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C2.png)
+    通过一个简单二分类问题来解释x×theta的等价表达式pi成|theta|的反比例关系。
+    
+![SVM的决策边界3，重点理解](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C3(%E9%87%8D%E7%82%B9%E7%90%86%E8%A7%A3).png)
+    
+    接上
+    
+![SVM的决策边界4，重点理解](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C4(%E9%87%8D%E7%82%B9%E7%90%86%E8%A7%A32).png)
+    
+    接上
+    
+![SVM的决策边界5，重点理解](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C5(%E9%87%8D%E7%82%B9%E7%90%86%E8%A7%A33).png)
 
-![图片](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C3(%E9%87%8D%E7%82%B9%E7%90%86%E8%A7%A3).png)
-
-![图片](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C4(%E9%87%8D%E7%82%B9%E7%90%86%E8%A7%A32).png)
-
-![图片](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C5(%E9%87%8D%E7%82%B9%E7%90%86%E8%A7%A33).png)
 
 ![图片](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%92%8C%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E7%9A%84%E4%B8%80%E8%88%AC%E6%80%A7%E5%8C%BA%E5%88%AB.png)
     
