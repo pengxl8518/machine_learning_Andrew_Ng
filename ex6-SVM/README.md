@@ -17,7 +17,7 @@
     
     * 支持向量机的假设函数（周志华和李航书给的都很复杂，这里只给吴恩达教学视频中的）    
         
-        ![假设函数] (https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%81%87%E8%AE%BE%E5%87%BD%E6%95%B0-%E5%90%B4%E6%81%A9%E8%BE%BE.png?raw=true)
+        ![假设函数](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%81%87%E8%AE%BE%E5%87%BD%E6%95%B0-%E5%90%B4%E6%81%A9%E8%BE%BE.png?raw=true)
     
     
     
