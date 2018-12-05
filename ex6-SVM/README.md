@@ -54,6 +54,7 @@
     
 ![SVM的决策边界5，重点理解](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C5(%E9%87%8D%E7%82%B9%E7%90%86%E8%A7%A33).png)
 
+* 支持向量机的与逻辑回归的不同（周志华和李航书给的都很复杂，这里只给吴恩达教学视频中的）    
 
 ![图片](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%92%8C%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E7%9A%84%E4%B8%80%E8%88%AC%E6%80%A7%E5%8C%BA%E5%88%AB.png)
     
