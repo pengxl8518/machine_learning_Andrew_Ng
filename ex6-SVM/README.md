@@ -56,6 +56,8 @@
 ![SVM的决策边界5，重点理解](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C5(%E9%87%8D%E7%82%B9%E7%90%86%E8%A7%A33).png)
   
   * 以上就是为什么支持向量机最终会找到最大间距分类器的原因。因为它试图极小化theta的范数值来 极大化p(i)的范数。
+  
+  * ##在这个例子中，theta向量与超平面成90°角，所以x在theta上的投影就是x与超平面的距离。##
 
 ### 二、 支持向量机的与逻辑回归的不同    
 
