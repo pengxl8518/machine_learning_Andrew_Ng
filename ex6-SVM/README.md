@@ -12,11 +12,12 @@
 
 * 代码实现支持向量机。
 
-### 支持向量机的数学原理
+
+### 一、 支持向量机的数学原理
     
    #### 吴恩达视频中在讨论时总是假设我们的假设函数是一个s函数，需要注意。
     
-### 支持向量机的损失函数（周志华和李航书给的都很复杂，这里只给吴恩达教学视频中的）    
+#### 支持向量机的损失函数（周志华和李航书给的都很复杂，这里只给吴恩达教学视频中的）    
 
         
 ![支持向量机的损失函数](https://raw.githubusercontent.com/pengxl8518/machine_learning_Andrew_Ng/master/ex6-SVM/svm_theory/svm%E5%81%87%E8%AE%BE%E5%87%BD%E6%95%B0-%E5%90%B4%E6%81%A9%E8%BE%BE.png)
@@ -56,7 +57,7 @@
   
   * 以上就是为什么支持向量机最终会找到最大间距分类器的原因。因为它试图极小化theta的范数值来 极大化p(i)的范数。
 
-#### 支持向量机的与逻辑回归的不同    
+### 二、 支持向量机的与逻辑回归的不同    
 
 ![图片](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%92%8C%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E7%9A%84%E4%B8%80%E8%88%AC%E6%80%A7%E5%8C%BA%E5%88%AB.png)
     
