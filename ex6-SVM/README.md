@@ -59,12 +59,14 @@
   * 以上就是为什么支持向量机最终会找到最大间距分类器的原因。因为它试图极小化theta的范数值来 极大化p(i)的范数。
   
   * **在这个例子中，theta向量与超平面成90°角，所以x在theta上的投影就是x与超平面的距离。**
+  
+---
 
 ### 二、 支持向量机的与逻辑回归的不同    
 
 ![图片](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%92%8C%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E7%9A%84%E4%B8%80%E8%88%AC%E6%80%A7%E5%8C%BA%E5%88%AB.png)
     
-    
+---   
     
  #### 三、支持向量机核函数的原理
  
@@ -76,15 +78,18 @@
    * 一般而言，C/o 对模型的影响如下。
     
    ![r和o对模型拟合能力的影响](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/r%E4%B8%8Eo%E5%AF%B9%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%BD%B1%E5%93%8D.png)
-    
-    
+   
+---   
+   
 #### 四、SVM中普遍使用的准则
+
 
 ![准则1](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E5%87%86%E5%88%99.png)
 
 ![准则2](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E5%87%86%E5%88%992.png)
 
 ![准则3](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E5%87%86%E5%88%993.png)
+
 
 
 
