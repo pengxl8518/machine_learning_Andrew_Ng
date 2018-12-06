@@ -79,12 +79,12 @@
         
         本实验中用的是欧氏距离，除此之外还有：
 
-* 1、闵可夫斯基距离 Minkowski
+        1、闵可夫斯基距离 Minkowski
 
-* 2、杰卡德相似系数(Jaccard)
+        2、杰卡德相似系数(Jaccard)
 
-* 3、余弦相似度(cosine similarity)
+        3、余弦相似度(cosine similarity)
 
-* 4、Pearson 皮尔逊相关系数
+        4、Pearson 皮尔逊相关系数
 
 
