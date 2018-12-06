@@ -22,7 +22,7 @@ def load_data(path, transpose=True):
 
     return X, y
 # 数据集说明，X为像素的2值化值，y为数字真实值（1-10），每个数字出现500次
-X, y = load_data('ex3data1.mat')
+X, y = load_data('dataset/ex3data1.mat')
 
 print(X.shape)
 print(y.shape)
@@ -58,7 +58,7 @@ def plot_100_image(X):
             plt.yticks(np.array([]))
             #绘图函数，画100张图片
 
-raw_X, raw_y = load_data('ex3data1.mat')
+raw_X, raw_y = load_data('dataset/ex3data1.mat')
 print(raw_X.shape)
 print(raw_y.shape)
 
@@ -166,7 +166,8 @@ k_theta = np.array([logistic_regression(X, y[k]) for k in range(10)])
 print(k_theta.shape)
 prob_matrix = sigmoid(X @ k_theta.T)
 np.set_printoptions(suppress=True)
-# 这里用的很巧妙，取沿轴最大值的索引
+# 这里用的很巧妙，取沿轴最大值的索引。
+# 因为取sigmoid(X @ k_theta.T)的最大值只有对应的那个类是最大的。其他的值没有参与计算。
 y_pred = np.argmax(prob_matrix, axis=1)#返回沿轴axis最大值的索引，axis=1代表行
 # 去y的真实值并将其的10代换为0
 y_answer = raw_y.copy()
