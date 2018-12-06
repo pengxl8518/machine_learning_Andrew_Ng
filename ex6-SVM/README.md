@@ -50,7 +50,7 @@
     
    * 接上
     
-![SVM的决策边界4，重点理解](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C4(%E9%87%8D%E7%82%B9%E7%90%86%E8%A7%A32).png)
+![SVM的决策边界4，重点理解](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E5%86%B3%E7%AD%96%E8%BE%B9%E7%95%8C4(%E9%87%8D%E7%82%B9%E7%90%86%E8%A7%A3).png)
     
    * 接上
     
@@ -75,12 +75,16 @@
     
    * 一般而言，C/o 对模型的影响如下。
     
-    
+   ![r和o对模型拟合能力的影响](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/r%E4%B8%8Eo%E5%AF%B9%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%BD%B1%E5%93%8D.png)
     
     
 #### 四、SVM中普遍使用的准则
 
+![准则1](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E5%87%86%E5%88%99.png)
 
+![准则2](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E5%87%86%E5%88%992.png)
+
+![准则3](https://github.com/pengxl8518/machine_learning_Andrew_Ng/blob/master/ex6-SVM/svm_theory/svm%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8%E5%87%86%E5%88%993.png)
 
 
 
