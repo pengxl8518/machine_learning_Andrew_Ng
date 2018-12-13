@@ -56,7 +56,13 @@
    
    ![多元高斯分布2](https://raw.githubusercontent.com/pengxl8518/machine_learning_Andrew_Ng/master/ex8-anomaly%20detection%20and%20recommendation/anomaly%20dection/Principle%20of%20Gaussian%20distribution/%E5%9B%BE%E4%BA%94%EF%BC%9A%E5%8D%8F%E6%96%B9%E5%B7%AE%E5%A6%82%E4%BD%95%E5%BD%B1%E5%93%8D%E6%A8%A1%E5%9E%8B%EF%BC%88%E9%87%8D%E7%82%B9%E7%90%86%E8%A7%A3)_%E7%BB%AD.png)
    
- 
-  
+---
+
+### 代码实现
+
+    * 代码中的阈值选取指标除了概率值还有f1值。
+    
+    * 更多细节见代码注释。
+
   
     
